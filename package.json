@@ -1,9 +1,0 @@
-{
-  "name": "serverless-twitter-layer",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "graphql": "^15.0.0"
-  }
-}

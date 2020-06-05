@@ -2,8 +2,8 @@ const { ApolloServer, gql } = require('apollo-server-lambda');
 
 // Construct a schema, using GraphQL schema language
 const typeDefs = gql`
-  type Query ($name: String!){
-    hello: String
+  type Query {
+    hello($name: String!): String
   }
 `;
 
